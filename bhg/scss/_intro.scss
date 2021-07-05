@@ -1,0 +1,35 @@
+.intro {
+  margin-top: 90px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .intro__content {
+    width: 40%;
+  }
+
+  .intro__title {
+    font-size: 60px;
+    letter-spacing: 2px;
+    line-height: 72px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+
+  .intro__text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+  }
+
+  .intro__btn {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 20px 50px;
+    background: #ff2d2d;
+    text-transform: uppercase;
+  }
+}
